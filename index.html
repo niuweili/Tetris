@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #333;
+        }
+        table,tr,td{
+            border: 1px solid #eee;
+            border-collapse: collapse;
+        }
+        td{
+            width: 20px;
+            height: 20px;
+        }
+        table{
+            margin:50px auto;
+        }
+        .I{
+            background-color: pink;
+        }
+        .L{
+            background-color:gold;
+        }
+        .J{
+            background-color: red;
+        }
+        .T{
+            background-color:orange;
+        }
+        .O{
+            background-color: yellow;
+        }
+        .S{
+            background-color: skyblue;
+        }
+        .Z{
+            background-color:yellowgreen;
+        }
+        h2{
+            color:#fff;
+            text-align: center;
+            margin-top:100px;
+            line-height: 30px;
+        }
+    </style>    
+</head>
+<body>
+    <div id="app">
+        <h2 class="score"></h2>
+    </div>
+</body>
+</html>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/game.js"></script>
+<script src="js/block.js"></script>
+<script src="js/block_json.js"></script>
+<script src="js/map.js"></script>
+<script type="text/javascript">
+     var game = new Game()
+</script>
